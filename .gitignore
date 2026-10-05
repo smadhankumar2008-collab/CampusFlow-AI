@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+.npm/
+
+# Build output
+dist/
+build/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+
+# Local databases and runtime data
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment and local configuration
+.env
+.env.*
+!.env.example
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Archives and generated exports
+*.zip
+*.tar
+*.tar.gz
